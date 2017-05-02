@@ -51,3 +51,14 @@ You can specifiy return value from `doInDatabaseThread` in `Executor` argument l
     new Executer<String>  
 
 This line make `doInDatabaseThread` retrun `String` object and `onResponseExecute` will get that. (like AsyncTask class )
+
+
+
+Contribution
+-----
+
+Comments, contributions and patches are greatly appreciated.
+
+License
+-----
+The MIT License (MIT).
