@@ -39,8 +39,8 @@ public class ApplicationClass extends Application {
         };
 
 
-        // you can don't pass parameter if you don't need those.
-        // you need start your thread only ONCE.
+        // all parameter is optional, you can
+        // you MUST start thread only ONCE.
         new DatabaseThread(errorHandler, initializer).start();
 
     }
